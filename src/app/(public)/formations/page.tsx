@@ -1,5 +1,4 @@
 import type { Metadata } from 'next'
-import Image from 'next/image'
 import Link from 'next/link'
 import SectionWrapper from '@/components/shared/SectionWrapper'
 import { ArrowRight, CheckCircle } from 'lucide-react'
@@ -108,13 +107,10 @@ export default function FormationsPage() {
               href={`/agenda?domaine=${domain.code}`}
               className="group flex flex-col sm:flex-row bg-white rounded-xl border overflow-hidden hover:shadow-lg transition-shadow"
             >
-              <div className="relative w-full sm:w-40 h-48 sm:h-auto flex-shrink-0">
-                <Image
-                  src={domain.image}
-                  alt={domain.name}
-                  fill
-                  className="object-cover"
-                />
+              <div className="relative w-full sm:w-40 h-48 sm:h-auto flex-shrink-0 bg-gradient-to-br from-[#0e3d68] to-[#07223b]">
+                <div className="absolute inset-0 flex items-center justify-center">
+                  <span className="text-white font-heading font-bold text-lg opacity-60">{domain.code}</span>
+                </div>
               </div>
               <div className="p-5 flex-1">
                 <span className="text-xs font-semibold text-accent-gold">{domain.code}</span>

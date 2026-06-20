@@ -2,7 +2,6 @@
 
 import { useCallback, useEffect, useState } from 'react'
 import useEmblaCarousel from 'embla-carousel-react'
-import Image from 'next/image'
 import { motion } from 'framer-motion'
 
 const logos = [
@@ -64,14 +63,8 @@ export function ReferencesCarousel() {
                 key={logo.name}
                 className="flex-[0_0_50%] min-w-0 md:flex-[0_0_25%] lg:flex-[0_0_16.666%] pl-4"
               >
-                <div className="relative h-16 md:h-20 bg-white rounded-xl border p-4 flex items-center justify-center">
-                  <Image
-                    src={logo.src}
-                    alt={logo.name}
-                    width={120}
-                    height={40}
-                    className="object-contain max-h-full"
-                  />
+                <div className="h-16 md:h-20 bg-white rounded-xl border p-4 flex items-center justify-center">
+                  <span className="text-secondary font-semibold text-sm text-center leading-tight">{logo.name}</span>
                 </div>
               </div>
             ))}

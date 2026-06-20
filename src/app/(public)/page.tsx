@@ -124,7 +124,7 @@ const faqs = [
 function HeroSection() {
   return (
     <section className="relative bg-gradient-to-br from-secondary via-secondary to-primary/90 text-white overflow-hidden">
-      <div className="absolute inset-0 bg-[url('http://coachconsulting.ma/images/hero-bg.jpg')] bg-cover bg-center opacity-20" />
+      <div className="absolute inset-0 bg-gradient-to-br from-[#0e3d68] to-[#1a5a8c] opacity-30" />
       <div className="relative max-w-7xl mx-auto px-4 py-24 md:py-36">
         <div className="max-w-3xl">
           <h1 className="text-[clamp(2.5rem,5vw,4rem)] font-heading font-bold leading-tight mb-6">
@@ -183,7 +183,7 @@ function AboutSection() {
       <div className="grid md:grid-cols-2 gap-12 items-center">
         <div className="relative h-80 md:h-full min-h-[350px] rounded-xl overflow-hidden">
           <Image
-            src="http://coachconsulting.ma/images/about.jpg"
+            src="http://coachconsulting.ma/images/content/slide_02.jpg"
             alt="Coach Consulting"
             fill
             className="object-cover"
@@ -276,12 +276,7 @@ function FormationsGrid() {
             href={`/formations#${domain.code.toLowerCase()}`}
             className="group relative h-48 rounded-xl overflow-hidden"
           >
-            <Image
-              src={domain.image}
-              alt={domain.label}
-              fill
-              className="object-cover group-hover:scale-110 transition-transform duration-500"
-            />
+            <div className="absolute inset-0 bg-gradient-to-br from-[#0e3d68] to-[#07223b]" />
             <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent" />
             <div className="absolute bottom-0 left-0 right-0 p-4">
               <span className="text-xs text-accent-gold font-semibold">{domain.code}</span>

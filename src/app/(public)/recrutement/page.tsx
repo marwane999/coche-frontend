@@ -108,6 +108,7 @@ export default function RecrutementPage() {
               alt="Espace candidats"
               fill
               className="object-cover"
+              sizes="(max-width: 768px) 100vw, 50vw"
             />
           </div>
         </div>

@@ -1,5 +1,4 @@
 import type { Metadata } from 'next'
-import Image from 'next/image'
 import Link from 'next/link'
 import SectionWrapper from '@/components/shared/SectionWrapper'
 import { ArrowLeft, Calendar, User } from 'lucide-react'
@@ -106,14 +105,7 @@ export default function BlogPostPage({ params }: BlogPostPageProps) {
       <SectionWrapper>
         <div className="max-w-3xl mx-auto">
           {post.cover_image && (
-            <div className="relative h-64 md:h-96 rounded-xl overflow-hidden mb-8">
-              <Image
-                src={post.cover_image}
-                alt={post.title}
-                fill
-                className="object-cover"
-              />
-            </div>
+            <div className="relative h-64 md:h-96 rounded-xl overflow-hidden mb-8 bg-gradient-to-br from-[#0e3d68] to-[#07223b]" />
           )}
           <div
             className="text-muted-foreground leading-relaxed space-y-4"

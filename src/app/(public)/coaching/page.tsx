@@ -69,7 +69,11 @@ export default function CoachingPage() {
               className="group bg-white rounded-xl border overflow-hidden hover:shadow-lg transition-shadow"
             >
               <div className="relative h-48">
-                <Image src={s.image} alt={s.title} fill className="object-cover" />
+                {s.image.includes('coaching-individuel') ? (
+                  <Image src={s.image} alt={s.title} fill className="object-cover" />
+                ) : (
+                  <div className="absolute inset-0 bg-gradient-to-br from-[#0e3d68] to-[#07223b]" />
+                )}
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
                 <div className="absolute bottom-4 left-4 flex items-center gap-2 text-white">
                   <s.icon className="h-5 w-5 text-accent-gold" />
@@ -87,12 +91,7 @@ export default function CoachingPage() {
       <SectionWrapper bgAlt>
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="relative h-72 md:h-96 rounded-xl overflow-hidden">
-            <Image
-              src="http://coachconsulting.ma/images/coaching-info.jpg"
-              alt="Informations coaching"
-              fill
-              className="object-cover"
-            />
+            <div className="absolute inset-0 bg-gradient-to-br from-[#0e3d68] to-[#07223b]" />
           </div>
           <div>
             <h2 className="text-[clamp(1.5rem,3vw,2rem)] font-heading font-bold text-secondary mb-4">

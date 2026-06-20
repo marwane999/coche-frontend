@@ -1,5 +1,4 @@
 import type { Metadata } from 'next'
-import Image from 'next/image'
 import Link from 'next/link'
 import SectionWrapper from '@/components/shared/SectionWrapper'
 import { ArrowRight, CheckCircle } from 'lucide-react'
@@ -82,12 +81,7 @@ export default function AccompagnementPage() {
                 item.reverse ? 'md:order-last' : ''
               }`}
             >
-              <Image
-                src={item.image}
-                alt={item.title}
-                fill
-                className="object-cover"
-              />
+              <div className="absolute inset-0 bg-gradient-to-br from-[#0e3d68] to-[#07223b]" />
             </div>
             <div>
               <h2 className="text-[clamp(1.5rem,3vw,2rem)] font-heading font-bold text-secondary mb-4">

@@ -1,7 +1,6 @@
 'use client'
 
 import useEmblaCarousel from 'embla-carousel-react'
-import Image from 'next/image'
 import { motion } from 'framer-motion'
 import { Quote } from 'lucide-react'
 
@@ -103,14 +102,8 @@ export function TestimonialsCarousel() {
                   </div>
                   <div className="mt-4 pt-4 border-t border-[#e2e8f0]">
                     <div className="flex items-center gap-4">
-                      <div className="relative w-12 h-12 rounded-full overflow-hidden bg-[#e2e8f0] shrink-0">
-                        <Image
-                          src={t.photo}
-                          alt={t.name}
-                          fill
-                          className="object-cover"
-                          sizes="48px"
-                        />
+                      <div className="w-12 h-12 rounded-full bg-[#0e3d68] text-white flex items-center justify-center font-bold text-sm shrink-0">
+                        {t.name.charAt(0)}{t.name.split(' ').pop()?.charAt(0) ?? ''}
                       </div>
                       <div>
                         <p className="font-semibold text-[#0e3d68]">{t.name}</p>
