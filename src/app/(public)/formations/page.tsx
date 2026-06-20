@@ -13,49 +13,41 @@ const domaines = [
   {
     code: 'FIN',
     name: 'Finance',
-    image: 'http://coachconsulting.ma/images/finance.jpg',
     desc: 'Analyse financière, gestion de trésorerie, finance d\'entreprise, normes IFRS, évaluation d\'entreprises.',
   },
   {
     code: 'CDG',
     name: 'Contrôle de gestion',
-    image: 'http://coachconsulting.ma/images/controle-gestion.jpg',
     desc: 'Tableaux de bord, budget, contrôle budgétaire, reporting, gestion des coûts, performance.',
   },
   {
     code: 'AUD',
     name: 'Audit',
-    image: 'http://coachconsulting.ma/images/audit.jpg',
     desc: 'Audit interne, audit externe, audit opérationnel, contrôle interne, gestion des risques.',
   },
   {
     code: 'STR',
     name: 'Stratégie',
-    image: 'http://coachconsulting.ma/images/strategie.jpg',
     desc: 'Planification stratégique, business plan, transformation digitale, stratégie d\'entreprise.',
   },
   {
     code: 'CRM',
     name: 'Credit Management',
-    image: 'http://coachconsulting.ma/images/credit-management.jpg',
     desc: 'Gestion du crédit, recouvrement, analyse de risques clients, scoring, contentieux.',
   },
   {
     code: 'RH',
     name: 'Ressources Humaines',
-    image: 'http://coachconsulting.ma/images/rh.jpg',
     desc: 'GPEC, recrutement, paie, droit social, gestion des talents, marque employeur.',
   },
   {
     code: 'COA',
     name: 'Coaching',
-    image: 'http://coachconsulting.ma/images/coaching.jpg',
     desc: 'Coaching de carrière, coaching individuel, coaching relationnel, coaching managérial.',
   },
   {
     code: 'COM',
     name: 'Commercial',
-    image: 'http://coachconsulting.ma/images/commercial.jpg',
     desc: 'Techniques de vente, négociation commerciale, management d\'équipe, relation client.',
   },
 ]

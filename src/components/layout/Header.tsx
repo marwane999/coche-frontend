@@ -40,7 +40,7 @@ export default function Header() {
         <div className="flex items-center justify-between h-16 md:h-20">
           <Link href="/" className="flex-shrink-0">
             <Image
-              src="http://coachconsulting.ma/images/logo.png"
+              src="/images/logo.png"
               alt="Coach Consulting"
               width={180}
               height={60}

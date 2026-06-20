@@ -9,25 +9,25 @@ const services = [
   {
     title: 'Coaching Individuel',
     description: 'Accompagnement personnalisé pour développer votre potentiel et atteindre vos objectifs professionnels.',
-    image: 'http://coachconsulting.ma/images/coaching-individuel.jpg',
+    image: '/images/coaching-individuel.jpg',
     href: '/services/coaching-individuel',
   },
   {
     title: 'Coaching en entreprise',
     description: 'Programmes de coaching collectif pour renforcer la cohésion et la performance de vos équipes.',
-    image: 'http://coachconsulting.ma/images/coaching.jpg',
+    image: '/images/coaching.jpg',
     href: '/services/coaching-entreprise',
   },
   {
     title: 'Formations',
     description: 'Formations intra et inter-entreprises dans les domaines de la finance, management et RH.',
-    image: 'http://coachconsulting.ma/images/formations.jpg',
+    image: '/images/formations.jpg',
     href: '/formations',
   },
   {
     title: 'Accompagnement',
     description: 'Conseil et accompagnement sur-mesure pour vos projets de transformation et de développement.',
-    image: 'http://coachconsulting.ma/images/accompagnement.png',
+    image: '/images/accompagnement.png',
     href: '/services/accompagnement',
   },
 ]

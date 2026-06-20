@@ -54,14 +54,14 @@ const services = [
 ]
 
 const domains = [
-  { code: 'FIN', label: 'Finance', image: 'http://coachconsulting.ma/images/finance.jpg' },
-  { code: 'CDG', label: 'Contrôle de gestion', image: 'http://coachconsulting.ma/images/controle-gestion.jpg' },
-  { code: 'AUD', label: 'Audit', image: 'http://coachconsulting.ma/images/audit.jpg' },
-  { code: 'STR', label: 'Stratégie', image: 'http://coachconsulting.ma/images/strategie.jpg' },
-  { code: 'CRM', label: 'Credit Management', image: 'http://coachconsulting.ma/images/credit-management.jpg' },
-  { code: 'RH', label: 'Ressources Humaines', image: 'http://coachconsulting.ma/images/rh.jpg' },
-  { code: 'COA', label: 'Coaching', image: 'http://coachconsulting.ma/images/coaching.jpg' },
-  { code: 'COM', label: 'Commercial', image: 'http://coachconsulting.ma/images/commercial.jpg' },
+  { code: 'FIN', label: 'Finance' },
+  { code: 'CDG', label: 'Contrôle de gestion' },
+  { code: 'AUD', label: 'Audit' },
+  { code: 'STR', label: 'Stratégie' },
+  { code: 'CRM', label: 'Credit Management' },
+  { code: 'RH', label: 'Ressources Humaines' },
+  { code: 'COA', label: 'Coaching' },
+  { code: 'COM', label: 'Commercial' },
 ]
 
 const references = [
@@ -183,7 +183,7 @@ function AboutSection() {
       <div className="grid md:grid-cols-2 gap-12 items-center">
         <div className="relative h-80 md:h-full min-h-[350px] rounded-xl overflow-hidden">
           <Image
-            src="http://coachconsulting.ma/images/content/slide_02.jpg"
+              src="/images/content/slide_02.jpg"
             alt="Coach Consulting"
             fill
             className="object-cover"

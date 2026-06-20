@@ -5,18 +5,9 @@ import useEmblaCarousel from 'embla-carousel-react'
 import { motion } from 'framer-motion'
 
 const logos = [
-  { name: 'BMCE Bank', src: 'http://coachconsulting.ma/images/references/bmce.png' },
-  { name: 'Attijariwafa Bank', src: 'http://coachconsulting.ma/images/references/attijari.png' },
-  { name: 'OCP', src: 'http://coachconsulting.ma/images/references/ocp.png' },
-  { name: 'Maroc Telecom', src: 'http://coachconsulting.ma/images/references/maroc_telecom.png' },
-  { name: 'CDG', src: 'http://coachconsulting.ma/images/references/cdg.png' },
-  { name: 'ONCF', src: 'http://coachconsulting.ma/images/references/oncf.png' },
-  { name: 'Lafarge Maroc', src: 'http://coachconsulting.ma/images/references/lafarge.png' },
-  { name: 'CIH Bank', src: 'http://coachconsulting.ma/images/references/cih.png' },
-  { name: 'Royal Air Maroc', src: 'http://coachconsulting.ma/images/references/ram.png' },
-  { name: 'Bureau Veritas', src: 'http://coachconsulting.ma/images/references/bureau_veritas.png' },
-  { name: 'Managem', src: 'http://coachconsulting.ma/images/references/managem.png' },
-  { name: 'NMT Group', src: 'http://coachconsulting.ma/images/references/nmt.png' },
+  'BMCE Bank', 'Attijariwafa Bank', 'OCP', 'Maroc Telecom',
+  'CDG', 'ONCF', 'Lafarge Maroc', 'CIH Bank',
+  'Royal Air Maroc', 'Bureau Veritas', 'Managem', 'NMT Group',
 ]
 
 export function ReferencesCarousel() {
@@ -58,13 +49,13 @@ export function ReferencesCarousel() {
           onMouseLeave={() => setIsPaused(false)}
         >
           <div className="flex">
-            {logos.map((logo) => (
+            {logos.map((name) => (
               <div
-                key={logo.name}
+                key={name}
                 className="flex-[0_0_50%] min-w-0 md:flex-[0_0_25%] lg:flex-[0_0_16.666%] pl-4"
               >
                 <div className="h-16 md:h-20 bg-white rounded-xl border p-4 flex items-center justify-center">
-                  <span className="text-secondary font-semibold text-sm text-center leading-tight">{logo.name}</span>
+                  <span className="text-secondary font-semibold text-sm text-center leading-tight">{name}</span>
                 </div>
               </div>
             ))}

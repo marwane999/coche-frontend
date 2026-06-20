@@ -15,25 +15,25 @@ const services = [
     icon: TrendingUp,
     title: 'Coaching de carrière',
     desc: "Bilan de compétences, transition professionnelle, préparation à l'expatriation, rebond après un licenciement.",
-    image: 'http://coachconsulting.ma/images/coaching-carriere.jpg',
+    image: '/images/coaching.jpg',
   },
   {
     icon: Target,
     title: 'Coaching individuel',
     desc: "Développement personnel, gestion du stress, affirmation de soi, leadership, prise de parole en public.",
-    image: 'http://coachconsulting.ma/images/coaching-individuel.jpg',
+    image: '/images/coaching-individuel.jpg',
   },
   {
     icon: HeartHandshake,
     title: 'Coaching relationnel',
     desc: 'Communication interpersonnelle, gestion de conflits, intelligence émotionnelle, management d\'équipe.',
-    image: 'http://coachconsulting.ma/images/coaching-relationnel.jpg',
+    image: '/images/coaching.jpg',
   },
   {
     icon: Award,
     title: 'Coaching managérial',
     desc: 'Prise de fonction, management transversal, conduite du changement, délégation et responsabilisation.',
-    image: 'http://coachconsulting.ma/images/coaching-managerial.jpg',
+    image: '/images/coaching.jpg',
   },
 ]
 

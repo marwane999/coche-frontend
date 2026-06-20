@@ -28,7 +28,7 @@ const blogPosts: Record<string, {
       <p>Notre équipe d'experts partage régulièrement des analyses, conseils et bonnes pratiques en matière de management, finance, formation et coaching.</p>
       <p>Restez connectés pour découvrir nos prochains articles.</p>
     `,
-    cover_image: 'http://coachconsulting.ma/images/blog-placeholder.jpg',
+    cover_image: '/images/formations.jpg',
     author: 'Coach Consulting',
     published_at: '2026-01-15',
     category: 'Actualités',

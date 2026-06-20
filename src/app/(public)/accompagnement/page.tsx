@@ -13,43 +13,36 @@ const accompagnements = [
   {
     title: 'Stratégie financière',
     desc: "Nous vous aidons à définir et déployer une stratégie financière alignée sur vos objectifs de croissance. Analyse de la structure financière, optimisation du BFR, planification financière pluriannuelle.",
-    image: 'http://coachconsulting.ma/images/strategie-financiere.jpg',
     reverse: false,
   },
   {
     title: 'Pilotage des investissements',
     desc: "Évaluation et sélection des projets d'investissement, analyse de rentabilité (VAN, TRI, délai de récupération), suivi budgétaire et reporting investissements.",
-    image: 'http://coachconsulting.ma/images/pilotage-investissements.jpg',
     reverse: true,
   },
   {
     title: 'Tableaux de bord de gestion',
     desc: 'Conception et mise en place de tableaux de bord de gestion pertinents et actionnables. Indicateurs clés de performance, reporting mensuel, pilotage opérationnel et stratégique.',
-    image: 'http://coachconsulting.ma/images/tableaux-bord.jpg',
     reverse: false,
   },
   {
     title: 'Budget et contrôle budgétaire',
     desc: "Accompagnement dans l'élaboration du budget annuel, suivi budgétaire, analyse des écarts, et mise en place d'un processus budgétaire efficace et participatif.",
-    image: 'http://coachconsulting.ma/images/budget.jpg',
     reverse: true,
   },
   {
     title: 'Analyse des coûts et marges',
     desc: "Mise en place de comptabilité analytique, calcul des coûts de revient, analyse des marges par produit/client/canal, optimisation de la rentabilité.",
-    image: 'http://coachconsulting.ma/images/couts-marges.jpg',
     reverse: false,
   },
   {
     title: 'Négociation bancaire',
     desc: "Préparation et accompagnement dans vos négociations bancaires. Optimisation de la structure de financement, recherche de covenants adaptés, optimisation des lignes de crédit.",
-    image: 'http://coachconsulting.ma/images/negociation-bancaire.jpg',
     reverse: true,
   },
   {
     title: 'Gestion des risques',
     desc: 'Identification, évaluation et couverture des risques financiers et opérationnels. Mise en place de dispositifs de contrôle interne et de gestion des risques.',
-    image: 'http://coachconsulting.ma/images/risques.jpg',
     reverse: false,
   },
 ]

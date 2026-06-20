@@ -26,7 +26,6 @@ const testimonials = [
     company: 'BMCE Bank',
     content: "Une formation d'excellence qui a transformé notre approche du contrôle de gestion. Les formateurs sont des experts de terrain qui savent adapter leur pédagogie aux besoins réels de l'entreprise.",
     rating: 5,
-    photo: 'http://coachconsulting.ma/images/testimonials/karim.jpg',
   },
   {
     name: 'Najat El Fassi',
@@ -34,7 +33,6 @@ const testimonials = [
     company: 'Maroc Telecom',
     content: "Coach Consulting nous accompagne depuis 3 ans dans notre stratégie RH. Leur approche sur-mesure et leur professionnalisme font la différence. Je recommande vivement.",
     rating: 5,
-    photo: 'http://coachconsulting.ma/images/testimonials/najat.jpg',
   },
   {
     name: 'Omar Tazi',
@@ -42,7 +40,6 @@ const testimonials = [
     company: 'NMT Group',
     content: "Le coaching individuel m'a permis de développer un leadership plus authentique et efficace. Un investissement qui a changé ma manière de manager.",
     rating: 5,
-    photo: 'http://coachconsulting.ma/images/testimonials/omar.jpg',
   },
   {
     name: 'Fatima Zahra Alaoui',
@@ -50,7 +47,6 @@ const testimonials = [
     company: 'CDG',
     content: "Formation certifiante en audit très complète. Les exercices pratiques et les études de cas étaient directement applicables à notre quotidien.",
     rating: 4,
-    photo: 'http://coachconsulting.ma/images/testimonials/fatima.jpg',
   },
   {
     name: 'Youssef Berrada',
@@ -58,7 +54,6 @@ const testimonials = [
     company: 'Lafarge Maroc',
     content: "Le programme de formation commerciale a boosté les performances de mon équipe de 35% en six mois. Un résultat concret et mesurable.",
     rating: 5,
-    photo: 'http://coachconsulting.ma/images/testimonials/youssef.jpg',
   },
   {
     name: 'Amina Sekkouri',
@@ -66,7 +61,6 @@ const testimonials = [
     company: 'ONCF',
     content: "Un partenaire de confiance pour la formation continue de nos collaborateurs. La qualité pédagogique et l'organisation logistique sont irréprochables.",
     rating: 5,
-    photo: 'http://coachconsulting.ma/images/testimonials/amina.jpg',
   },
 ]
 

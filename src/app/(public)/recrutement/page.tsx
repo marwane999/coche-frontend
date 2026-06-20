@@ -104,7 +104,7 @@ export default function RecrutementPage() {
           </div>
           <div className="relative h-72 md:h-96 rounded-xl overflow-hidden order-1 md:order-2">
             <Image
-              src="http://coachconsulting.ma/images/recrutement.jpg"
+              src="/images/recrutement.jpg"
               alt="Espace candidats"
               fill
               className="object-cover"

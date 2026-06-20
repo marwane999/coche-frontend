@@ -20,7 +20,7 @@ export function HeroSection() {
   return (
     <section className="relative h-screen min-h-[600px] max-h-[900px] flex items-center overflow-hidden">
       <Image
-        src="http://coachconsulting.ma/images/content/images1slider.jpg"
+        src="/images/content/images1slider.jpg"
         alt="Coach Consulting"
         fill
         className="object-cover"

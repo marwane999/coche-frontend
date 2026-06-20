@@ -24,7 +24,7 @@ export function AboutSection() {
             className="relative aspect-[4/3] rounded-xl overflow-hidden"
           >
             <Image
-              src="http://coachconsulting.ma/images/content/slide_01.jpg"
+              src="/images/content/slide_01.jpg"
               alt="Coach Consulting"
               fill
               className="object-cover"
